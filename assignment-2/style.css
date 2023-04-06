@@ -1,0 +1,75 @@
+body{scroll-behavior: smooth;
+    font-family: sans-serif;
+    margin: 4px;
+    padding: 0px;
+}
+.main{
+    margin-left:10px;
+    position: relative;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.header h1{
+    font-family: 'Roboto', sans-serif;
+}
+.header h2{
+    margin-top: 10%
+}
+table,th,td{
+    border: 1px solid rgb(163, 159, 159);
+}
+table .tr{
+    background-color: rgb(163, 159, 159);
+}
+.header hr{
+    margin-left:600px; 
+    margin-top:50px; 
+    margin-bottom:70px;
+}
+.header .global{
+    margin-right: 250px; 
+    margin-top: 30px;
+}
+.header .global h3{
+    color:rgb(61, 61, 240)
+}
+
+.main .author{
+    display: flex; 
+    flex-direction: row;
+}
+.author .detail{
+    margin-left: 15%;
+}
+.author .detail .index{
+    color: rgb(78, 78, 220);
+}
+.boolean{
+    margin-left: 50px;
+}
+.imp{
+    display:flex;
+    border: 7px solid black; 
+    margin-top: 100px;
+}
+.imp h1{
+    width: 10px; 
+    margin-left: 10px;
+}
+.imp ol{
+    font-size: larger;
+    list-style:none;
+    margin-left: -35px; 
+    position: relative;
+}
+.section{
+    margin-left: 13%;
+    margin-top: -20px; 
+    font-size: x-large;
+}
+.section h4{
+    background-color: black; 
+    color: white;
+}
