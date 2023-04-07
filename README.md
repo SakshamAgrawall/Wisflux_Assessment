@@ -2,8 +2,12 @@
 
 ## assessment-1
 
-in this assessment we make a simple document file using html
+in this assessment i make a simple document file using html
 
 ## assessment-2
 
-in this assessment we styling the Html file by using CSS which we made in assessment-1
+in this assessment i styling the Html file by using CSS which we made in assessment-1
+
+## assessment-3
+
+in this assessment solve problem by using JavaScript
