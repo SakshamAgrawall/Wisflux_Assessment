@@ -37,7 +37,7 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#video">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Pricing</a>
@@ -46,10 +46,10 @@
               <a class="nav-link" href="#">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacts</a>
+              <a class="nav-link" href="#contact">Contacts</a>
             </li>
           </ul>
         </div>
@@ -196,12 +196,124 @@
       </div>
     </section>
     <!-- cards section ends -->
-
-    <!-- project section -->
     
+    <!-- video section -->
+    <section id="video" class="container-fluid about-section" style="background-color:rgb(58, 58, 245); height: 100vh;">
+      <div class="title">
+        <h1 style="color: white;">Video Project</h1>
+      </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video autoplay loop muted>
+        <source 
+          src="/assests/demo2.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+    <div class="carousel-item">
+      <video autoplay loop muted>
+        <source 
+          src="/assests/demo1.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+    <div class="carousel-item">
+      <video autoplay loop muted>
+        <source 
+          src="assests/demo3.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section>
     <!-- project section ends -->
 
+    <!-- blog section end -->
+    <section id="blog" class="container fluid">
+      <div class="title">
+        <h1>BLOGS</h1>
+      </div>
+      <div class="row about-card">
+      <div class="card">
+        <img style="width: 70%;" src="assests/blog3.avif" alt="" />
+        <div class="card-title">Lorem Ipsum</div>
+        <div class="card-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          nam iste molestiae architecto similique totam et. Lorem ipsum
+          dolor sit amet.
+        </div>
+        <div class="card-btn">Read More</div>
+      </div>
+      <div class="card">
+        <img style="width: 70%;" src="assests/blog2.jpeg" alt="" />
+        <div class="card-title">Lorem Ipsum</div>
+        <div class="card-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          nam iste molestiae architecto similique totam et. Lorem ipsum
+          dolor sit amet.
+        </div>
+        <div class="card-btn">Read More</div>
+      </div>
+      <div class="card">
+        <img style="width: 70%;"src="assests/blog1.avif" alt="" />
+        <div class="card-title">Lorem Ipsum</div>
+        <div class="card-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          nam iste molestiae architecto similique totam et. Lorem ipsum
+          dolor sit amet.
+        </div>
+        <div class="card-btn">Read More</div>
+      </div>
+    </div>
+  </section>
+    <!-- blog section start -->
 
+   <!-- map section start -->
+   <section id="contact" class=" container-fluid connect-section">
+    <div class="container-fluid">
+    <div class=" row ">
+      <div class="map col-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14234.13648236252!2d75.81853095!3d26.88653895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1631552350307!5m2!1sen!2sin" class="gmap" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="contact-form col-6 ">
+        <h2>Contact</h2>
+        <form action="#">
+          <div>
+            <label for="c-email">NAME</label>
+            <input type="text" name="c-name" id="c-name">
+          </div>
+          <div>
+            <label label for="c-email">EMAIL ADDRESS</label>
+            <input type="email" name="c-email" id="c-email">
+          </div>              
+          <div>
+            <label for="c-subject">SUBJECT</label>
+            <input type="text" name="c-subject" id="c-subject">
+          </div>
+          <div>
+          <label for="c-message">MESSAGE</label>
+          <textarea name="c-message" id="c-message" cols="30" rows="5"></textarea>
+          </div>
+          <div class="contact-btn"><button>SEND</button></div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+   <!-- map section end -->
     <!-- footer section -->
     <footer class="footer-section justify-content-sm-between">
       <div class="contact">
