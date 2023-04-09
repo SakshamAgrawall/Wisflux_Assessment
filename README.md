@@ -15,3 +15,7 @@ in this assessment solve problem by using JavaScript
 ## assessment-4
 
 Create lending page using HTML CSS JS
+
+## assessment-5
+
+javaScript quiz

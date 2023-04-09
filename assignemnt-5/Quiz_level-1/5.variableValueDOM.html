@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>variable</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+      }
+      button {
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      span {
+        font-size: x-large;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button onclick="Variable()">Click me</button>
+      <span id="Variable"></span>
+    </div>
+
+    <script>
+      const Variable = (number) => {
+        var number = prompt("enter your variable");
+        document.getElementById("Variable").innerHTML = number;
+      };
+    </script>
+  </body>
+</html>
