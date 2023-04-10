@@ -18,4 +18,8 @@ Create lending page using HTML CSS JS
 
 ## assessment-5
 
-javaScript quiz
+javaScript quiz level 1,2,3
+
+## assessment-6
+
+javaScript quiz level 4
