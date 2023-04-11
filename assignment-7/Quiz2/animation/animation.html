@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animation</title>
+    <style>
+        *{
+  margin: 0;
+  padding: 0;
+}
+
+
+h1{
+  text-align: center;
+  margin: 150px 0;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+#image-container {
+  width: 90vw;
+  display: grid;
+  grid-template-areas:
+    "p1 . ."
+    ". p2 ."
+    ". . p3";
+}
+
+img{
+  width: 400px;
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Animating Images</h1>
+        <section>
+            <div id="image-container">
+                <img id="image1" src="https://images.unsplash.com/photo-1679590820593-4d4243457d3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="img1">
+                <img id="image2" src="https://images.unsplash.com/photo-1678625994480-769578a02bdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="img2">
+                <img id="image3" src="https://images.unsplash.com/photo-1679341653239-3943bfe40a1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80" alt="img3">
+            </div>
+        </main>
+    <script src="animation.js"></script>
+</body>
+</html>
