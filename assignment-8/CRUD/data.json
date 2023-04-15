@@ -1,0 +1,20 @@
+[
+    {
+        "name":"saksham",
+        "age":22,
+        "email":"saksham@gmail.com",
+        "gender":"Male"
+    },
+    {
+        "name":"rahul",
+        "age":21,
+        "email":"rahul21@gmail.com",
+        "gender":"male"
+    },
+    {
+        "name":"rohan",
+        "age":21,
+        "email":"rohan21@gmail.com",
+        "gender":"male"
+    }
+]
