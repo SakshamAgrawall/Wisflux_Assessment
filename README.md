@@ -31,3 +31,7 @@ advance javascript and typeScript question
 ## assessment-8
 
 Quiz on express js and node js.
+
+## assessment-9
+
+github user detail using APi.
