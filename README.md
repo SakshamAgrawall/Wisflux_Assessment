@@ -43,3 +43,7 @@ search pic using using APi.
 ## assessment-11
 
 visitor-counter using redis,react,express
+
+## assessment-12
+
+react hot reloading
