@@ -1,0 +1,9 @@
+.main {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(188, 88, 235);
+  /* color: antiquewhite; */
+}
